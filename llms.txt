@@ -1,0 +1,30 @@
+# md-sitemap
+
+> Open protocol: Markdown twins of HTML pages + machine index at /md-sitemap.txt, discovered via llms.txt.
+
+- Spec repository: https://github.com/JW-0042/md-sitemap
+- Version: 0.1.0
+- License: Apache-2.0
+
+## Start here
+
+- [README.md](https://github.com/JW-0042/md-sitemap/blob/main/README.md): overview
+- [SPEC.md](https://github.com/JW-0042/md-sitemap/blob/main/SPEC.md): normative rules (MUST/SHOULD/MAY)
+- [AGENTS.md](https://github.com/JW-0042/md-sitemap/blob/main/AGENTS.md): discovery algorithm for AI agents
+- [IMPLEMENTATION.md](https://github.com/JW-0042/md-sitemap/blob/main/IMPLEMENTATION.md): how to implement on a site
+- [COMPARISON.md](https://github.com/JW-0042/md-sitemap/blob/main/COMPARISON.md): vs sitemap.xml / robots / llms.txt
+
+## Examples
+
+- [examples/llms.txt](https://github.com/JW-0042/md-sitemap/blob/main/examples/llms.txt)
+- [examples/md-sitemap.txt](https://github.com/JW-0042/md-sitemap/blob/main/examples/md-sitemap.txt)
+- [examples/index.md](https://github.com/JW-0042/md-sitemap/blob/main/examples/index.md)
+
+## Live production
+
+- https://meninydnes.site/md-sitemap.txt
+- https://svatek-dnes.cz/md-sitemap.txt
+
+## Related
+
+- https://llmstxt.org/ — llms.txt proposal (complementary)

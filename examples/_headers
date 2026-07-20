@@ -1,0 +1,10 @@
+# Cloudflare Pages-style headers for md-sitemap Full conformance
+# Copy patterns into your host's header config.
+
+/md-sitemap.txt
+  X-Robots-Tag: noindex
+  Content-Type: text/plain; charset=utf-8
+
+/*.md
+  X-Robots-Tag: noindex
+  Content-Type: text/markdown; charset=utf-8

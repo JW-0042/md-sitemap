@@ -1,0 +1,6 @@
+# Example Site — markdown mirror (AI/GEO surface)
+# canonical HTML site: https://example.com
+# linked only from /llms.txt — not from robots.txt or sitemap.xml
+https://example.com/index.md
+https://example.com/about.md
+https://example.com/docs/getting-started.md

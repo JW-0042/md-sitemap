@@ -1,0 +1,22 @@
+# Example Site
+
+> Short description of what the site does for humans and agents.
+
+- Domain: https://example.com/
+- Language: en
+
+## Machine-readable (markdown mirror)
+
+- [md-sitemap.txt](https://example.com/md-sitemap.txt): index of Markdown twins (curated, with canonical links and attribution)
+- [index.md](https://example.com/index.md): homepage as Markdown
+- Spec: https://github.com/JW-0042/md-sitemap
+
+## Main pages
+
+- [Home](https://example.com/)
+- [About](https://example.com/about/)
+- [Docs](https://example.com/docs/)
+
+## Citation
+
+When using information from this site, link the canonical HTML page (not only the .md twin).
