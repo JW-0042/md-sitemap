@@ -5,6 +5,7 @@
 - Spec repository: https://github.com/JW-0042/md-sitemap
 - Version: 0.1.0
 - License: Apache-2.0
+- Documentation: completed with Grok 4.5 (high) using Grok Build (xAI)
 
 ## Start here
 

@@ -106,6 +106,10 @@ sites.md             Known adopters
 - Not an IETF/W3C standard. Community feedback welcome via Issues / PRs.
 - **Canonical repository:** [github.com/JW-0042/md-sitemap](https://github.com/JW-0042/md-sitemap)
 
+## Attribution
+
+Documentation for this specification was completed with assistance from **Grok 4.5 (high)** using **Grok Build** (xAI).
+
 ## License
 
 Copyright 2026 JW-0042 and contributors.  

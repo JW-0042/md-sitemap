@@ -3,6 +3,7 @@
 ## 0.1.0 — 2026-07-20
 
 - First public draft of the **Markdown Sitemap & Page Twin Protocol**.
+- Documentation completed with **Grok 4.5 (high)** via **Grok Build** (xAI).
 - Defines:
   - Page twin URL mapping (`/path/` → `/path.md`, homepage → `/index.md`)
   - Optional `index.html.md` aliases
