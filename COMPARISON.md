@@ -3,7 +3,7 @@
 ## At a glance
 
 | Criterion | `sitemap.xml` | `robots.txt` | `llms.txt` | **md-sitemap + twins** |
-|-----------|---------------|--------------|------------|-------------------------|
+| --- | --- | --- | --- | --- |
 | Primary audience | Search engines | All crawlers | AI agents | AI agents |
 | Format | XML | Plain directives | Markdown | Plain text index + Markdown pages |
 | Scope | Often entire site | Allow/Disallow + SEO sitemap pointer | Curated highlights | Enumerable twin set |

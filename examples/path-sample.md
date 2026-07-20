@@ -1,9 +1,11 @@
 ---
 canonical: "https://example.com/docs/getting-started/"
+title: "Getting started"
 lang: "en"
 site: "Example Site"
 attribution: "required"
 type: "docs"
+schemaVersion: "0.1"
 updated: "2026-07-20"
 ---
 

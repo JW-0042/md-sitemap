@@ -1,11 +1,11 @@
 # Known adopters
 
-Sites publicly implementing **md-sitemap** (Full or Core). PRs welcome.
+Sites publicly implementing **md-sitemap** (Full or Core). PRs welcome — see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-| Site | Region / lang | md-sitemap | Notes |
-|------|---------------|------------|--------|
-| [meninydnes.site](https://meninydnes.site/) | SK | [md-sitemap.txt](https://meninydnes.site/md-sitemap.txt) | Full; name-day calendar |
-| [svatek-dnes.cz](https://svatek-dnes.cz/) | CS | [md-sitemap.txt](https://svatek-dnes.cz/md-sitemap.txt) | Full; sister site |
+| Site | Region / lang | Conformance | md-sitemap | Notes |
+| --- | --- | --- | --- | --- |
+| [meninydnes.site](https://meninydnes.site/) | SK | Full | [md-sitemap.txt](https://meninydnes.site/md-sitemap.txt) | Name-day calendar |
+| [svatek-dnes.cz](https://svatek-dnes.cz/) | CS | Full | [md-sitemap.txt](https://svatek-dnes.cz/md-sitemap.txt) | Sister site |
 
 ## How to get listed
 

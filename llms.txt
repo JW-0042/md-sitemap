@@ -1,9 +1,9 @@
 # md-sitemap
 
-> Open protocol: Markdown twins of HTML pages + machine index at /md-sitemap.txt, discovered via llms.txt.
+> Open protocol: Markdown twins of HTML pages plus a machine index at /md-sitemap.txt, discovered via llms.txt.
 
 - Spec repository: https://github.com/JW-0042/md-sitemap
-- Version: 0.1.0
+- Version: 0.1.1
 - License: Apache-2.0
 - Documentation: completed with Grok 4.5 (high) using Grok Build (xAI)
 
@@ -14,6 +14,8 @@
 - [AGENTS.md](https://github.com/JW-0042/md-sitemap/blob/main/AGENTS.md): discovery algorithm for AI agents
 - [IMPLEMENTATION.md](https://github.com/JW-0042/md-sitemap/blob/main/IMPLEMENTATION.md): how to implement on a site
 - [COMPARISON.md](https://github.com/JW-0042/md-sitemap/blob/main/COMPARISON.md): vs sitemap.xml / robots / llms.txt
+- [CONTRIBUTING.md](https://github.com/JW-0042/md-sitemap/blob/main/CONTRIBUTING.md): how to contribute
+- [schemas/frontmatter.schema.json](https://github.com/JW-0042/md-sitemap/blob/main/schemas/frontmatter.schema.json): twin frontmatter schema
 
 ## Examples
 

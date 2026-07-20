@@ -1,39 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/JW-0042/md-sitemap/schemas/twin-frontmatter.schema.json",
-  "title": "md-sitemap page twin frontmatter",
+  "title": "md-sitemap page twin frontmatter (legacy alias)",
+  "description": "Legacy filename. Prefer schemas/frontmatter.schema.json.",
   "type": "object",
   "required": ["canonical"],
   "properties": {
-    "canonical": {
-      "type": "string",
-      "format": "uri",
-      "description": "Absolute URL of the human HTML page this twin represents."
-    },
-    "lang": {
-      "type": "string",
-      "description": "BCP 47 language tag, e.g. sk, cs, en."
-    },
-    "site": {
-      "type": "string",
-      "description": "Human-readable site name."
-    },
-    "type": {
-      "type": "string",
-      "description": "Publisher-defined page class (home, article, product, …)."
-    },
-    "attribution": {
-      "type": "string",
-      "description": "Citation expectation, e.g. required."
-    },
-    "source": {
-      "type": "string",
-      "description": "Dataset or editorial source identifier."
-    },
-    "updated": {
-      "type": "string",
-      "description": "ISO 8601 date of last twin update."
-    }
+    "canonical": { "type": "string", "format": "uri" },
+    "title": { "type": "string" },
+    "lang": { "type": "string" },
+    "site": { "type": "string" },
+    "type": { "type": "string" },
+    "attribution": { "type": "string" },
+    "source": { "type": "string" },
+    "updated": { "type": "string" },
+    "schemaVersion": { "type": "string" }
   },
   "additionalProperties": true
 }

@@ -1,9 +1,11 @@
 ---
 canonical: "https://example.com/"
+title: "Example Site"
 lang: "en"
 site: "Example Site"
 attribution: "required"
 type: "home"
+schemaVersion: "0.1"
 ---
 
 # Example Site

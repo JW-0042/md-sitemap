@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JW-0042/md-sitemap/schemas/frontmatter.schema.json",
+  "title": "md-sitemap page twin frontmatter",
+  "description": "YAML frontmatter for Markdown page twins (Markdown Sitemap & Page Twin Protocol).",
+  "type": "object",
+  "required": ["canonical"],
+  "properties": {
+    "canonical": {
+      "type": "string",
+      "format": "uri",
+      "description": "Absolute URL of the human HTML page this twin represents."
+    },
+    "title": {
+      "type": "string",
+      "description": "Short human title for the page."
+    },
+    "lang": {
+      "type": "string",
+      "description": "BCP 47 language tag, e.g. sk, cs, en."
+    },
+    "site": {
+      "type": "string",
+      "description": "Human-readable site name."
+    },
+    "type": {
+      "type": "string",
+      "description": "Publisher-defined page class (home, article, product, …)."
+    },
+    "attribution": {
+      "type": "string",
+      "description": "Citation expectation, e.g. required."
+    },
+    "source": {
+      "type": "string",
+      "description": "Dataset or editorial source identifier."
+    },
+    "updated": {
+      "type": "string",
+      "description": "ISO 8601 date of last twin update."
+    },
+    "schemaVersion": {
+      "type": "string",
+      "description": "md-sitemap spec version this twin was written against, e.g. 0.1."
+    }
+  },
+  "additionalProperties": true
+}
