@@ -9,10 +9,8 @@
 **Markdown Sitemap & Page Twin Protocol** — version **0.1.1** (draft)
 
 <p align="center">
-  <img src="./assets/md-sitemap-logo.svg" alt="md-sitemap logo" width="128" height="128" />
+  <img src="./assets/md-sitemap-logo.svg" alt="md-sitemap logo" width="96" height="96" />
 </p>
-
-<p align="center"><sub>Document twin ↔ sitemap graph — dark mark for README; light variant in <code>assets/md-sitemap-logo-light.svg</code></sub></p>
 
 > **md-sitemap** indexes curated Markdown twins of HTML pages. Agents discover it via [`llms.txt`](https://llmstxt.org/), never via SEO sitemaps. Each twin carries a **canonical** HTML URL for citation.
 

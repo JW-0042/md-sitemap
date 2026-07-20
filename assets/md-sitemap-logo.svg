@@ -1,68 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="md-sitemap">
-  <defs>
-    <linearGradient id="bg" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#111827"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="28" y1="28" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#818CF8"/>
-    </linearGradient>
-    <linearGradient id="leaf" x1="70" y1="58" x2="104" y2="98" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#6366F1"/>
-    </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
-    </filter>
-  </defs>
-
-  <!-- App tile -->
-  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
-  <rect x="1.5" y="1.5" width="125" height="125" rx="26.5" fill="none" stroke="#334155" stroke-opacity="0.9"/>
-
-  <!-- Soft glow -->
-  <circle cx="64" cy="64" r="46" fill="#38BDF8" opacity="0.08"/>
-
-  <!-- Twin document (left) — clean pages, no tiny text -->
-  <g filter="url(#soft)">
-    <rect x="22" y="30" width="38" height="50" rx="8" fill="#1F2937" stroke="#475569" stroke-width="1.5"/>
-    <rect x="28" y="40" width="26" height="3.5" rx="1.75" fill="#94A3B8"/>
-    <rect x="28" y="48" width="20" height="3.5" rx="1.75" fill="#64748B"/>
-    <rect x="28" y="56" width="24" height="3.5" rx="1.75" fill="#64748B"/>
-    <rect x="28" y="64" width="16" height="3.5" rx="1.75" fill="#64748B"/>
-    <!-- folded corner -->
-    <path d="M48 30 H52 L60 38 V30 Z" fill="#334155"/>
-    <path d="M52 30 V38 H60" fill="none" stroke="#64748B" stroke-width="1.2"/>
-  </g>
-
-  <!-- Sitemap graph (right) -->
-  <g filter="url(#soft)">
-    <!-- edges -->
-    <path d="M84 44 L84 62 M84 62 L70 78 M84 62 L98 78"
-          fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- root node -->
-    <circle cx="84" cy="42" r="9" fill="url(#accent)"/>
-    <circle cx="84" cy="42" r="3.5" fill="#0B1220"/>
-    <!-- leaf nodes -->
-    <circle cx="70" cy="80" r="7.5" fill="url(#leaf)"/>
-    <circle cx="98" cy="80" r="7.5" fill="url(#leaf)"/>
-    <circle cx="70" cy="80" r="2.8" fill="#0B1220" opacity="0.55"/>
-    <circle cx="98" cy="80" r="2.8" fill="#0B1220" opacity="0.55"/>
-  </g>
-
-  <!-- Twin bridge -->
-  <path d="M60 55 C68 55 72 60 76 62"
-        fill="none" stroke="#A5B4FC" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 4"/>
-  <circle cx="62" cy="55" r="2.5" fill="#CBD5E1"/>
-  <circle cx="76" cy="62" r="2.5" fill="#A5B4FC"/>
-
-  <!-- Bottom mark: abstract "md" bars (readable at favicon size) -->
-  <g transform="translate(36 98)">
-    <rect width="8" height="14" rx="2" fill="#E2E8F0"/>
-    <rect x="11" width="8" height="14" rx="2" fill="#E2E8F0"/>
-    <path d="M19 5 H28 A5 5 0 0 1 28 15 H19" fill="none" stroke="#38BDF8" stroke-width="3.2" stroke-linecap="round"/>
-    <circle cx="42" cy="7" r="2.2" fill="#818CF8"/>
-    <circle cx="42" cy="12" r="2.2" fill="#22D3EE"/>
-  </g>
+  <!-- Simple mark: page + two connected nodes -->
+  <rect width="128" height="128" rx="28" fill="#0F172A"/>
+  <!-- document -->
+  <rect x="30" y="34" width="36" height="48" rx="6" fill="#F8FAFC"/>
+  <rect x="38" y="46" width="20" height="4" rx="2" fill="#94A3B8"/>
+  <rect x="38" y="56" width="14" height="4" rx="2" fill="#CBD5E1"/>
+  <!-- tree: one parent, two children -->
+  <circle cx="88" cy="44" r="10" fill="#38BDF8"/>
+  <circle cx="76" cy="78" r="8" fill="#38BDF8"/>
+  <circle cx="100" cy="78" r="8" fill="#38BDF8"/>
+  <path d="M88 54 V66 M88 66 L76 70 M88 66 L100 70" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

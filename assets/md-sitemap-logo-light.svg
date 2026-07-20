@@ -1,51 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="md-sitemap">
-  <defs>
-    <linearGradient id="accentL" x1="28" y1="28" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0284C7"/>
-      <stop offset="1" stop-color="#4F46E5"/>
-    </linearGradient>
-    <linearGradient id="leafL" x1="70" y1="58" x2="104" y2="98" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0891B2"/>
-      <stop offset="1" stop-color="#6366F1"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="128" height="128" rx="28" fill="#F8FAFC"/>
-  <rect x="1.5" y="1.5" width="125" height="125" rx="26.5" fill="none" stroke="#E2E8F0"/>
-
-  <circle cx="64" cy="64" r="46" fill="#0EA5E9" opacity="0.06"/>
-
-  <g>
-    <rect x="22" y="30" width="38" height="50" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.75"/>
-    <rect x="28" y="40" width="26" height="3.5" rx="1.75" fill="#94A3B8"/>
-    <rect x="28" y="48" width="20" height="3.5" rx="1.75" fill="#CBD5E1"/>
-    <rect x="28" y="56" width="24" height="3.5" rx="1.75" fill="#CBD5E1"/>
-    <rect x="28" y="64" width="16" height="3.5" rx="1.75" fill="#CBD5E1"/>
-    <path d="M48 30 H52 L60 38 V30 Z" fill="#E2E8F0"/>
-    <path d="M52 30 V38 H60" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
-  </g>
-
-  <g>
-    <path d="M84 44 L84 62 M84 62 L70 78 M84 62 L98 78"
-          fill="none" stroke="url(#accentL)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="84" cy="42" r="9" fill="url(#accentL)"/>
-    <circle cx="84" cy="42" r="3.5" fill="#FFFFFF"/>
-    <circle cx="70" cy="80" r="7.5" fill="url(#leafL)"/>
-    <circle cx="98" cy="80" r="7.5" fill="url(#leafL)"/>
-    <circle cx="70" cy="80" r="2.8" fill="#FFFFFF" opacity="0.85"/>
-    <circle cx="98" cy="80" r="2.8" fill="#FFFFFF" opacity="0.85"/>
-  </g>
-
-  <path d="M60 55 C68 55 72 60 76 62"
-        fill="none" stroke="#818CF8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 4"/>
-  <circle cx="62" cy="55" r="2.5" fill="#64748B"/>
-  <circle cx="76" cy="62" r="2.5" fill="#6366F1"/>
-
-  <g transform="translate(36 98)">
-    <rect width="8" height="14" rx="2" fill="#0F172A"/>
-    <rect x="11" width="8" height="14" rx="2" fill="#0F172A"/>
-    <path d="M19 5 H28 A5 5 0 0 1 28 15 H19" fill="none" stroke="#0284C7" stroke-width="3.2" stroke-linecap="round"/>
-    <circle cx="42" cy="7" r="2.2" fill="#4F46E5"/>
-    <circle cx="42" cy="12" r="2.2" fill="#0891B2"/>
-  </g>
+  <rect width="128" height="128" rx="28" fill="#F1F5F9"/>
+  <rect x="30" y="34" width="36" height="48" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="38" y="46" width="20" height="4" rx="2" fill="#94A3B8"/>
+  <rect x="38" y="56" width="14" height="4" rx="2" fill="#CBD5E1"/>
+  <circle cx="88" cy="44" r="10" fill="#0284C7"/>
+  <circle cx="76" cy="78" r="8" fill="#0284C7"/>
+  <circle cx="100" cy="78" r="8" fill="#0284C7"/>
+  <path d="M88 54 V66 M88 66 L76 70 M88 66 L100 70" fill="none" stroke="#0284C7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
