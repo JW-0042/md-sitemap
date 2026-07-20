@@ -105,6 +105,13 @@ sites.md             Known adopters
 - **0.1.0** — first public draft, based on production use on multi-locale static sites.
 - Not an IETF/W3C standard. Community feedback welcome via Issues / PRs.
 
+### Repository location
+
+- **Public now:** [github.com/vtf587-boop/md-sitemap](https://github.com/vtf587-boop/md-sitemap)  
+- **Intended stable home:** [github.com/JW-0042/md-sitemap](https://github.com/JW-0042/md-sitemap) (transfer when that account is authenticated)
+
+Until the transfer, cite the **vtf587-boop** URL. Spec text that mentions `JW-0042/md-sitemap` refers to the intended canonical namespace.
+
 ## License
 
 Copyright 2026 JW-0042 and contributors.  
